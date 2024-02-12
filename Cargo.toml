@@ -1,0 +1,10 @@
+[package]
+name = "stem"
+version = "0.1.0"
+edition = "2021"
+description = "The UEFI bootloader for LilyOS, Stem, which raises the Lily into the higher half."
+authors = ["Lily McCabe <lily@lilymccabe.ca>"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uefi = "0.26.0"
